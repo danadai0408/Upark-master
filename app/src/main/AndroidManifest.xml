@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yu_hsingchang.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Upark"
+        android:supportsRtl="true"
+        >
+        <activity android:name=".spaceInfo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    <activity
+        android:name=".WebLookup" />
+
+    </application>
+    <activity android:name=".profile">
+
+    </activity>
+    <activity android:name=".menu">
+
+    </activity>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-sdk android:minSdkVersion="17" />
+
+</manifest>
